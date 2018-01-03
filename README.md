@@ -14,7 +14,7 @@ githubにログインし、画面上部からリポジトリの作成(New Reposi
 	1. Finish
 1. 作成されたディレクトリをgit管理下に置く
 	1. 「＋」アイコンから「New Terminal」を選択し、Newセッションを開く(一番左のコンソールは共有されているため)  <img src="https://user-images.githubusercontent.com/34710839/34239377-539a7c94-e64a-11e7-9904-86d69a5b0932.png" width=250px />
-	1. (メモ.おまじないとして ssh-key add を実行する必要がある。'eval "$(ssh-agent)"'  'ssh-add ~/.ssh/id_rsa'
+	1. (メモ.おまじないとして ssh-key add を実行する必要がある。`eval "$(ssh-agent)"`  `ssh-add ~/.ssh/id_rsa` )
 	1. 開いたターミナルコンソール上で`cd [LambdaFunction名]/[LambdaFunction名]`でカレントディレクトリを作成したlambdaのディレクトリにうつる(その上の階層に管理したいファイルを置く予定があるなら、その上の階層でもよいが、だいたいこの2階層目でよいはず)
 	1. `git init`コマンドをうち、リポジトリ化する
 	1. `git remote add origin git@github.com:githubのユーザ名/リポジトリ名.git`　コマンドをうち、リポジトリ情報の追加
