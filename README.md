@@ -18,4 +18,4 @@ githubにログインし、画面上部からリポジトリの作成(New Reposi
 	1. `git init`コマンドをうち、リポジトリ化する
 	1. `git remote add origin git@github.com:githubのユーザ名/リポジトリ名.git`　コマンドをうち、リポジトリ情報の追加
 	1. `git fetch`コマンドの後、`git pull origin master`コマンドでgithubリポジトリのファイルをひきとる
-	1. Lambda作成時にファイルが自動で作られているはずなので、`git add .`コマンド、`git commit -m "コミットメッセージ"`コマンド、`git push origin master`で自動作成されたファイルをgithubのリポジトリに送る
+	1. 開発が終わったタイミング・きりのいいタイミングで、`git add .`コマンド、`git commit -m "コミットメッセージ"`コマンド、`git push origin master`で自動作成されたファイルをgithubのリポジトリに送る
